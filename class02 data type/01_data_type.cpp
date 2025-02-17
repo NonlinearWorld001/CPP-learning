@@ -2,6 +2,10 @@
 //#include<string>
 using namespace std;
 
+/*
+有关数据类型的学习
+*/
+
 int main()
 {
   //sizeof 关键字 -->数据类型大小：sizeof(数据类型/变量名)
