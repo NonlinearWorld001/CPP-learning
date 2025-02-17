@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-有关C++的数据类型的学习
+有关C++的数据类型的学习。
 */
 
 int main()
