@@ -1,12 +1,12 @@
 #include<iostream>
-//#include<string>
+#include<string>
 using namespace std;
 
 /*
 有关C++的数据类型的学习。
 */
 
-int main()
+int main1()
 {
   //sizeof 关键字 -->数据类型大小：sizeof(数据类型/变量名)
   //整型
@@ -54,7 +54,17 @@ int main()
   //字符串类型
   //string 关键字, 需要包含头文件<string>(似乎在最新的编译器中不需要)
   string str = "hello, c++";
-  cout<<str<<endl;
+  cout<<str<<'\n'<<endl;
+
+  //布尔类型 
+  //true or false == 1 or 0; 占用1字节；
+  bool flag = true;
+
+  cout<<flag<<'\n'<<endl;
+
+  int s = sizeof(flag);
+  cout<<"布尔类型所占的内存空间大小："<<s<<'\n'<<endl;
+
   return 0;
   
 }
